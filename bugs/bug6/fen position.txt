@@ -1,0 +1,3 @@
+fen position: rnbqkbnr/p1pppp2/8/1p4pp/3P3P/4R3/PPP1PPP1/RNBQKBN1, sideToMove BLACK, virtualPlayerLevel 4.
+
+e: NONE, initialPos: pos(0,0), finalPos: pos(0,0)

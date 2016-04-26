@@ -1,0 +1,5 @@
+INFO  PlayGameController - received request to generate next move for [fen position: 5r2/2kP1p1p/p7/8/B5p1/6R1/5P1P/6K1, sideToMove BLACK, virtualPlayerLevel 4.
+INFO  PlayGameController - move:c7final: d7
+
+---------------------------------------------------------------------------------------
+check pseudo legal moves for diagonalSlidingPseudoLegalMovesGenerator

@@ -1,0 +1,81 @@
+<html>
+<head>
+	<title>Chess</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	<!-- chess table related -->	
+	<link rel="stylesheet" href="css/chessboard.css" />
+ 
+	<script src="js/json3.min.js"></script>
+	<script src="js/jquery-1.10.1.min.js"></script>
+	<script src="js/chessboard.js"></script>
+	<!-- end chess table related -->
+</head>
+<body>
+<div id="container">
+	<!-- header -->	
+	<header id="header">
+
+			<div id="header-column-logo">
+				<img src="img/logo.png">
+			</div>
+			
+			<div id="header-image-center">
+				<img src="img/header-center.png">
+			</div>
+			
+			<div id="header-second-menu-right">
+				<ul>
+					<li><a href="#">My account</a></li>
+					<li><a href="#">English</a></li>
+				</ul>
+			</div>
+
+	</header>
+</div>
+
+	<!-- Navigation -->	
+	<nav id="menu" class="clearfix">
+		<div id="container">
+			<ul>
+				<li><a href="logged-in-user-page.html">Home</a></li>
+				<li><a href="chess-strategies.html">Strategies</a></li>
+				<li><a href="load-saved-match.html">Load saved game</a></li>
+				<li><a href="statistics.html">Statistics</a></li>
+				<li><a href="about-us.html">About us</a></li>
+				<li><a href="contact-us.html">Contact us</a></li>
+			</ul>
+		</div>
+	</nav> 
+<div id="container">
+
+	<!-- Main Content area -->
+	<section id="content">
+	<p align="center" id="message"></p>
+	<script src="js/chess.js"></script>
+	<div id="board" style="width:650px;" class="play-chess-table"></div>
+
+	<script type="text/javascript" src="js/custom.js"></script>
+	</section>
+
+	<!-- Sidebar -->
+	<aside  id="sidebar">
+		<div class="aside-box">
+			<div class="aside-box-header">
+				<span>Chess game</span>
+			</div>
+			<div class="aside-box-content">
+				<script type="text/javascript" src="js/gamesManagement.js"></script>
+				<a href="#" onclick="saveMatch()">Save match</a>
+			</div>			
+		</div>
+	</aside>
+</div>
+
+	<!-- Footer -->
+	<footer id="footer" class="clearfix">
+		Copyright &copy Balazs David 2015
+	</footer>
+</body>
+</html>

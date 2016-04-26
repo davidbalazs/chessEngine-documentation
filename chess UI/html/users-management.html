@@ -1,0 +1,166 @@
+<html>
+<head>
+	<title>Chess</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div id="container">
+	<!-- header -->	
+	<header id="header">
+
+			<div id="header-column-logo">
+				<img src="img/logo.png">
+			</div>
+			
+			<div id="header-image-center">
+				<img src="img/header-center.png">
+			</div>
+			
+			<div id="header-second-menu-right">
+				<ul>
+					<li><a href="#">My account</a></li>
+					<li><a href="#">English</a></li>
+				</ul>
+			</div>
+
+	</header>
+</div>
+
+	<!-- Navigation -->	
+	<nav id="menu" class="clearfix">
+		<div id="container">
+			<ul>
+				<li><a href="logged-in-user-page.html">Home</a></li>
+				<li><a href="chess-strategies.html">Strategies</a></li>
+				<li><a href="load-saved-match.html">Load saved game</a></li>
+				<li><a href="statistics.html">Statistics</a></li>
+				<li><a href="about-us.html">About us</a></li>
+				<li><a href="contact-us.html">Contact us</a></li>
+			</ul>
+		</div>
+	</nav> 
+<div id="container">
+
+	<!-- Main Content area -->
+	<section id="content">
+		<div id="circles-section">
+			<a href="chess-problem-item.html"><img src="img/circles/circle1.png" onmouseover="this.src='img/circles/circle1hover.png'" onmouseout="this.src='img/circles/circle1.png'" /></a>
+			<a href="play-game.html"><img src="img/circles/circle4.png" onmouseover="this.src='img/circles/circle4hover.png'" onmouseout="this.src='img/circles/circle4.png'" /></a>
+			<a href="chess-strategies.html"><img src="img/circles/circle5.png" onmouseover="this.src='img/circles/circle5hover.png'" onmouseout="this.src='img/circles/circle5.png'" /></a>
+		</div>
+		
+		<h1>Users management</h1>
+		<h2>List of users</h2>
+		<table class="users-management-table">
+			<tr>
+				<td>Name</td>
+				<td>Last login</td>
+				<td>Won</td>
+				<td>Drawn</td>
+				<td>Lost</td>
+				<td>Delete</td>
+			</tr>
+			
+			<tr>
+				<td>Catalina</td>
+				<td>20.12.2015 12:34</td>
+				<td>10</td>
+				<td>4</td>
+				<td>1</td>
+				<td><img src="img/delete-icon.png"></td>
+			</tr>
+			
+			<tr>
+				<td>Ioana</td>
+				<td>20.12.2015 12:34</td>
+				<td>10</td>
+				<td>4</td>
+				<td>1</td>
+				<td><img src="img/delete-icon.png"></td>
+			</tr>
+			
+			<tr>
+				<td>Oana</td>
+				<td>20.12.2015 12:34</td>
+				<td>5</td>
+				<td>4</td>
+				<td>3</td>
+				<td><img src="img/delete-icon.png"></td>
+			</tr>
+			
+			<tr>
+				<td>David</td>
+				<td>20.12.2015 12:34</td>
+				<td>4</td>
+				<td>4</td>
+				<td>2</td>
+				<td><img src="img/delete-icon.png"></td>
+			</tr>
+		</table>
+		
+		<h2 style="margin-top:25px;">Last actions</h2>
+		
+		<table class="users-management-actions-table">
+			<tr>
+				<td>Name</td>
+				<td>Action</td>
+				<td>Date</td>
+			<tr/>
+			
+			<tr>
+				<td>David</td>
+				<td>Played game. Won</td>
+				<td>20.12.2015 12:34</td>
+			<tr/>
+		</table>
+		
+</section>
+
+	<!-- Sidebar -->
+	<aside  id="sidebar">
+		<div class="aside-box">
+			<div class="aside-box-header">
+				<span>Latest news</span>
+			</div>
+			<div class="aside-box-content">
+				<h5>Site is now online!</h5>
+				<p>Browse the site and <a href="contact-us.html">send us feedback</a>.</p>
+				<span class="latest-news-date">29/12/2015</span>
+				<hr/>
+				<h5>New design available!</h5>
+				<p>The new design has been successfully installed on the site.</p>
+				<span class="latest-news-date">29/12/2015</span>
+			</div>			
+		</div>
+		
+		<div class="aside-box">
+			<div class="aside-box-header">
+				<span>Quote of the day</span>
+			</div>
+			<div class="aside-box-content">
+				<p>First of all, chess teaches you to be objective!</p>
+			</div>			
+		</div>
+		
+		<div class="aside-box">
+			<div class="aside-box-header">
+				<span>Problem of the day</span>
+			</div>
+			<div class="aside-box-content">
+			<a href="#" class="center">
+				<img src="pictures/chess-problem.jpg">
+				<br/>	
+				<h5>Solve it!</h5>
+			</a>
+			</div>			
+		</div>
+	</aside>
+</div>
+
+	<!-- Footer -->
+	<footer id="footer" class="clearfix">
+		Copyright &copy Balazs David 2015
+	</footer>
+</body>
+</html>

@@ -1,0 +1,19 @@
+server side:
+- request body:
+    - a move integer 32 bit
+	- a chessPosition object consisting of the chess position BEFORE de move is applied.
+- response:
+    - a move integer 32 bit 
+	
+flow:
+ getNextMove(int move, ChessPosition chessPositionBeforeMove) {
+		if(isMoveLegal(move,chessPositionBeforeMove)) {
+			ChessPosition chessPositionAfterMove=applyMove(move,chessPositionBeforeMove);
+			return generateNextMove(chessPositionAfterMove);
+		}
+	}
+	
+	generateNextMove(ChessPosition chessPosition) {
+		List<Move> moves = generatePossibleMoves();
+		return getBestMove(moves);
+	}

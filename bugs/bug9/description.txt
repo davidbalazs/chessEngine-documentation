@@ -1,0 +1,2 @@
+INFO  PlayGameController - received request to generate next move for [fen position: rnbqk1nr/pppp1ppp/4p3/8/1b1P4/2P2N2/PP2PPPP/RNBQKB1R, sideToMove BLACK, virtualPlayerLevel 4.
+INFO  PlayGameController - move:d8final: h4

@@ -1,0 +1,1 @@
+[fen position: 2bq1b2/3nk3/2N5/4P3/7p/Pp3N1P/1PP2P1P/R4RK1, sideToMove BLACK, virtualPlayerLevel 4.

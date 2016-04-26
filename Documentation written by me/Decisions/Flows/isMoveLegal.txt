@@ -1,0 +1,11 @@
+isMoveLegal(int move,ChessPosition chessPositionBeforeMove) {
+	switch(pieceToBeMoved) {
+		case white_pawn:
+			return isWhitePawnMoveLegal(move,chessPositionBeforeMove);
+		case white_knight:
+	}
+}
+
+isWhitePawnMoveLegal(int move,ChessPosition chessPositionBeforeMove) {
+
+}

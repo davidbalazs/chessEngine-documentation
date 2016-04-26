@@ -1,0 +1,5 @@
+INFO  PlayGameController - received request to generate next move for [fen position: 8/4k1pp/p2Q4/P2K1p2/6PP/8/8/8, sideToMove BLACK, virtualPlayerLevel 4.
+INFO  PlayGameController - move:e7final: f8
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+problem: you should check the king state after move by using the opponentAttacksBitboard which is calculated after king move was made.

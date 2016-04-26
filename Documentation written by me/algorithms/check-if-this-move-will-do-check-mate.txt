@@ -1,0 +1,12 @@
+if (after applying current move is king in check) {
+	if(king cannot move to a position where he is not in check) {
+		if(cannot capture the piece that puts king in check) {
+			if(piece that push king in check == sliding piece AND cannot block the line/diagonal between king and piece that push king in check) {
+				checkMate;
+			}
+			else return KingIsInCheck;
+		}
+		else return KingIsInCheck;
+	}
+	else return KingIsInCheck;
+}
