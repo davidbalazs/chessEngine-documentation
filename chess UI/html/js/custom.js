@@ -70,8 +70,9 @@ var updateStatus = function() {
 };
 
 var cfg = {
+orientation: 'black',
   draggable: true,
-  position: 'rnbqkbnr/pppp1ppp/4p3/8/3P4/5N2/PPP1PPPP/RNBQKB1R',
+  position: 'start',
   onDragStart: onDragStart,
   onDrop: onDrop,
   onSnapEnd: onSnapEnd
