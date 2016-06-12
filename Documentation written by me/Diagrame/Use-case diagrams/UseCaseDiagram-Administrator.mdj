@@ -107,7 +107,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "Jucator neautentificat",
+											"text": "Administratorul",
 											"horizontalAlignment": 2,
 											"verticalAlignment": 5
 										},
@@ -5395,7 +5395,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFVIDIDxAv4hZ4="
 					},
-					"name": "Jucator neautentificat",
+					"name": "Administratorul",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
