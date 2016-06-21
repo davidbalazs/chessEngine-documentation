@@ -1,0 +1,40 @@
+1) cu ce scop folositi aceasta platforma?
+ - antrenament de sah
+ - divertisment
+2) Cat de usor accesibile considerati ca sunt functionalitatile principale ale platformei (jucarea unui meci de sah, strategii si probleme de sah)?
+ - foarte usor
+ - usor
+ - mediu
+ - nu sunt usor de gasit in aplicatie
+ - accesarea lor este dificila, am abandonat cautarea
+3) Considerati ca design-ul interfetei grafice este discret?
+ - da
+ - se poate si mai bine
+ - culorile si imaginile atrag atentia prea mult
+ - nu
+4) Cat de intuitiva este interfata grafica?
+ - foarte intuitiva
+ - intuitiva 
+ - medie
+ - neintuitiva
+ - foarte ineintuitiva
+5) Considerati ca mesajele de eroare sunt suficient de usor de inteles?
+ - da
+ - nu 
+ - nu stiu
+6) Cat de usor recunoasteti starea in care se afla sistemul la un anumit moment?
+ - foarte usor
+ - usor
+ - mediu
+ - greu
+ - foarte greu
+7) Cat de multumiti sunteti de timpul de raspuns al jucatorului virtual de sah cu urmatoarea mutare?
+ - foarte nemultumit
+ - nemultumit
+ - mediu
+ - multumit
+ - foarte multumit
+8) Considerati utila ideea de a avea un cont pe aceasta platforma?
+ - da
+ - nu
+ - nu stiu
